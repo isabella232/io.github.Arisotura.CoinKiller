@@ -15,15 +15,15 @@
   <screenshots>
     <screenshot type="default">
       <caption>The Level Editor</caption>
-      <image type="source">https://raw.githubusercontent.com/JakobDev/flathub/io.github.Arisotura.CoinKiller/screenshots/LevelEditor.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/io.github.Arisotura.CoinKiller/master/screenshots/LevelEditor.png</image>
     </screenshot>
     <screenshot>
       <caption>The Tileset Editor</caption>
-      <image type="source">https://raw.githubusercontent.com/JakobDev/flathub/io.github.Arisotura.CoinKiller/screenshots/TilesetEditor.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/io.github.Arisotura.CoinKiller/master/screenshots/TilesetEditor.png</image>
     </screenshot>
     <screenshot>
       <caption>The Main Window</caption>
-      <image type="source">https://raw.githubusercontent.com/JakobDev/flathub/io.github.Arisotura.CoinKiller/screenshots/MainWindow.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/io.github.Arisotura.CoinKiller/master/screenshots/MainWindow.png</image>
     </screenshot>
   </screenshots>
   <releases>
