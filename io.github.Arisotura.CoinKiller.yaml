@@ -1,6 +1,6 @@
 id: io.github.Arisotura.CoinKiller
 runtime: org.kde.Platform
-runtime-version: "6.5"
+runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: CoinKiller
 finish-args:
@@ -23,14 +23,14 @@ modules:
     sources:
       - type: archive
         archive-type: tar-gzip
-        url: https://api.github.com/repos/Arisotura/CoinKiller/tarball/v1.1
-        sha256: 81e43517845f143ccbd2ea92a42d51d1370a2c241b7237dcc2f298aa1c9dae69
+        url: https://api.github.com/repos/Arisotura/CoinKiller/tarball/Automated-2023-07-24
+        sha256: a16f78562deeec3984e14a6e17e95ee9ca9538b0714b8ac9dd3c02bbc0965093
         x-checker-data:
-            type: json
-            url: https://api.github.com/repos/Arisotura/CoinKiller/releases/latest
-            version-query: .published_at | split("T")[0]
-            url-query: .tarball_url
-            is-main-source: true
+          type: json
+          url: https://api.github.com/repos/Arisotura/CoinKiller/releases/latest
+          version-query: .published_at | split("T")[0]
+          url-query: .tarball_url
+          is-main-source: true
       - type: file
         path: io.github.Arisotura.CoinKiller.desktop
       - type: file
