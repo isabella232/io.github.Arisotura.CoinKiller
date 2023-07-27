@@ -3,7 +3,7 @@ runtime: org.kde.Platform
 runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: CoinKiller
-rename-icon: ck_icon.png
+rename-icon: ck_icon
 rename-desktop-file: coinkiller.desktop
 finish-args:
   - --socket=fallback-x11
