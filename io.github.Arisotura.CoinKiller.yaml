@@ -28,7 +28,7 @@ modules:
         x-checker-data:
             type: json
             url: https://api.github.com/repos/Arisotura/CoinKiller/releases/latest
-            version-query: .tag_name
+            version-query: .published_at | split("T")[0]
             url-query: .tarball_url
             is-main-source: true
       - type: file
