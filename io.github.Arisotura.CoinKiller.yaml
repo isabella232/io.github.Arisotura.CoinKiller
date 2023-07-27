@@ -3,6 +3,8 @@ runtime: org.kde.Platform
 runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: CoinKiller
+rename-icon: ck_icon.png
+rename-desktop-file: coinkiller.desktop
 finish-args:
   - --socket=fallback-x11
   - --socket=wayland
@@ -13,12 +15,6 @@ modules:
   - name: CoinKiller
     buildsystem: qmake
     post-install:
-      - install -Dm755 CoinKiller -t $FLATPAK_DEST/CoinKiller
-      - cp -r coinkiller_data $FLATPAK_DEST/CoinKiller
-      - mkdir -p $FLATPAK_DEST/bin
-      - ln -s $FLATPAK_DEST/CoinKiller/CoinKiller $FLATPAK_DEST/bin/CoinKiller
-      - install -Dm644 coinkiller_data/icons/logo.png $FLATPAK_DEST/share/icons/hicolor/512x512/apps/$FLATPAK_ID.png
-      - install -Dm644 $FLATPAK_ID.desktop -t $FLATPAK_DEST/share/applications
       - install -Dm644 $FLATPAK_ID.metainfo.xml -t $FLATPAK_DEST/share/metainfo
     sources:
       - type: archive
