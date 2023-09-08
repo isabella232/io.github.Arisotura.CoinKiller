@@ -4,7 +4,6 @@ runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: CoinKiller
 rename-icon: ck_icon
-rename-desktop-file: coinkiller.desktop
 finish-args:
   - --socket=fallback-x11
   - --socket=wayland
@@ -28,7 +27,5 @@ modules:
           version-query: .published_at | split("T")[0]
           url-query: .tarball_url
           is-main-source: true
-      - type: file
-        path: io.github.Arisotura.CoinKiller.desktop
       - type: file
         path: io.github.Arisotura.CoinKiller.metainfo.xml
