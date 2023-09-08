@@ -3,7 +3,6 @@ runtime: org.kde.Platform
 runtime-version: '6.5'
 sdk: org.kde.Sdk
 command: CoinKiller
-rename-icon: ck_icon
 finish-args:
   - --socket=fallback-x11
   - --socket=wayland
