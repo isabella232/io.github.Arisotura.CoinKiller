@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
-  <!--Created with jdAppStreamEdit 6.0-->
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+  <!--Created with jdAppStreamEdit 8.0-->
   <id>io.github.Arisotura.CoinKiller</id>
   <name>CoinKiller</name>
   <summary>A level editor for NSMB2</summary>
-  <developer_name>Arisotura</developer_name>
-  <launchable type="desktop-id">io.github.Arisotura.CoinKiller.desktop</launchable>
+  <developer id="net.kuribo64">
+    <name>Arisotura</name>
+  </developer>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0</project_license>
+  <project_license>GPL-3.0-only</project_license>
   <description>
     <p>A level editor for NSMB2. Uses Qt6 and is coded in C++</p>
     <p>CoinKiller requires a dump of NSMB2</p>
@@ -27,14 +28,14 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2024-01-16" date="2024-01-18"/>
-    <release version="2023-09-13" date="2023-09-14"/>
-    <release version="2023-09-12" date="2023-09-12"/>
-    <release version="2023-09-07" date="2023-09-08"/>
-    <release version="2023-08-06" date="2023-08-06"/>
-    <release version="2023-08-04" date="2023-08-04"/>
-    <release version="2023-07-24" date="2023-07-27"/>
-    <release version="v1.1" date="2023-01-17" type="stable">
+    <release version="2024-01-16" date="2024-01-18" type="stable"/>
+    <release version="2023-09-13" date="2023-09-14" type="stable"/>
+    <release version="2023-09-12" date="2023-09-12" type="stable"/>
+    <release version="2023-09-07" date="2023-09-08" type="stable"/>
+    <release version="2023-08-06" date="2023-08-06" type="stable"/>
+    <release version="2023-08-04" date="2023-08-04" type="stable"/>
+    <release version="2023-07-24" date="2023-07-27" type="stable"/>
+    <release version="1.1" date="2023-01-17" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v1.1</url>
       <description>
         <ul>
@@ -42,28 +43,28 @@
         </ul>
       </description>
     </release>
-    <release version="v1.0" date="2022-06-26" type="stable">
+    <release version="1.0" date="2022-06-26" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v1.0</url>
     </release>
-    <release version="v0.15" date="2020-12-09" type="stable">
+    <release version="0.15" date="2020-12-09" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v0.15</url>
     </release>
-    <release version="v0.14" date="2020-07-01" type="stable">
+    <release version="0.14" date="2020-07-01" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v0.14</url>
     </release>
-    <release version="v0.13" date="2020-06-26" type="stable">
+    <release version="0.13" date="2020-06-26" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v0.13</url>
     </release>
-    <release version="v0.12" date="2020-05-28" type="stable">
+    <release version="0.12" date="2020-05-28" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v0.12</url>
     </release>
-    <release version="v0.11" date="2020-02-28" type="stable">
+    <release version="0.11" date="2020-02-28" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v0.11</url>
     </release>
-    <release version="v0.10" date="2019-08-19" type="stable">
+    <release version="0.10" date="2019-08-19" type="stable">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v0.10</url>
     </release>
-    <release version="v0.9" date="2018-12-29" type="development">
+    <release version="0.9" date="2018-12-29" type="development">
       <url>https://github.com/Arisotura/CoinKiller/releases/tag/v0.9</url>
     </release>
   </releases>
@@ -78,6 +79,7 @@
     <control>keyboard</control>
   </recommends>
   <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">io.github.Arisotura.CoinKiller.desktop</launchable>
   <provides>
     <binary>CoinKiller</binary>
   </provides>
